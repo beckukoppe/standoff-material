@@ -1,0 +1,17 @@
+zentrale_1:
+https://verdaechtig-gute-jobs.de/de/aktuelles/spezialfahrzeug-mobile-einsatzzentrale-polizei-sachsen
+
+zentrale_2:
+https://www.luzernerzeitung.ch/limmattal/zuerich/zuerich-das-ist-das-neue-einsatzleitfahrzeug-von-schutz-rettung-zuerich-ld.2288460
+
+innen_1:
+https://sek-einsatz.de/polizei-themen/112-neue-beim-polizeipraesidium-mittelfranken-begruesst/5768/attachment/einsatzzentrale_4
+
+innen_2:
+https://verdaechtig-gute-jobs.de/de/aktuelles/spezialfahrzeug-mobile-einsatzzentrale-polizei-sachsen
+
+innen_3:
+https://www.majorpolicesupply.com/mobilecommand.html
+
+fahrzeuge:
+https://www.ndr.de/nachrichten/hamburg/kiez332_v-contentgross.jpg
