@@ -8,7 +8,7 @@ class: titel
 
 # LLM-gesteuerte Agenten in Computerspielen
 
-`Kapitel Eins`
+`Woche Eins`
 
 ---
 <!-- _class: lead -->
@@ -21,7 +21,7 @@ Von **Cedric Beck** und **Felix Koppe**
 
 - Einleitung
 - Spielidee
-- Moodboards
+- Moodboard
 - Architektur
 - Herausforderungen
 - Technik
@@ -33,7 +33,9 @@ Von **Cedric Beck** und **Felix Koppe**
 
 - Zuversichtlich, dass **Echtzeitinteraktion** möglich ist
 
-- Hardware wahrscheinlich als begrenzender Faktor
+- Aber: Latenz bleibt kritisch
+
+- Hardware als begrenzender Faktor
 
 ---
 
@@ -46,7 +48,7 @@ Von **Cedric Beck** und **Felix Koppe**
 
 - Den Spieler durch Entscheidungsdruck und Zeitlimitationen fordern
     - Fokus auf Immersion und eine intensive Erfahrung
-    - Der Spieler spricht
+    - Der Spieler spricht frei
 
 ---
 
@@ -59,6 +61,7 @@ Von **Cedric Beck** und **Felix Koppe**
 - Der Spieler muss sich entscheiden was er wann macht
 
 - Dem Spieler stehen Live-Überwachungsbilder zur Verfügung
+    - (händisch vorgefertigt)
 
 ---
 
@@ -85,15 +88,9 @@ Von **Cedric Beck** und **Felix Koppe**
 
 ---
 
-## Moodboards: Zentrale
+## Moodboard: Zentrale
 
 ![w:500 h:520](moodboard_zentrale.png)
-
----
-
-## Moodboards: Pressekonferenz
-
-![w:500 h:520](moodboard_pressekonferenz.png)
 
 ---
 
@@ -134,29 +131,40 @@ Von **Cedric Beck** und **Felix Koppe**
     - Initiale Prompts müssen präzise sein
     - Darstellung muss zu Geschichte passen
 
+- Models wollen nicht "böse" sein
+
 ---
 
 ## Technik: Allgemein
 
 - Sollte Open Source sein
 
+- Alles Server spezifische in einen docker container
+
 ---
 
 ## Technik: Backends
 
-- llamacpp
-- ollama
+- llama.cpp
+- Ollama (nutzt llamacpp)
+- vLLM
 
 ---
 
-## Technik: Text2Speech und Speech2Text
+## Technik: Text2Speech
 
 - **Text2Speech**
-- piper
-- OpenVoiceV2
+- piper (schnell aber schlechte Qualität)
+- OpenVoiceV2 (langsamer und ressourcen intensiv)
+- **Coqui** (schnell auf cpu)
+
+---
+
+## Technik: Speech2Text
 
 - **Speech2Text**
 - Whisper (openai)
+- Fast-Whispe (x4 speed)
 
 ---
 
@@ -173,10 +181,19 @@ Von **Cedric Beck** und **Felix Koppe**
     - deepseek-r1
 
 ---
+
+<!-- _class: lead -->
+
+## Latenz
+
+[Abschätzung](https://github.com/beckukoppe/standoff/wiki/Latenz)
+
+---
+
 <!-- _class: lead -->
 
 ## Ausblick
 
-dies und das
-dies und jenes
-bla bla bla
+[Fragen](https://github.com/beckukoppe/standoff/wiki/Fragen)
+
+[Arbeitsplan](https://github.com/beckukoppe/standoff/wiki/Arbeitsplan)
